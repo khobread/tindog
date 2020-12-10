@@ -13,10 +13,19 @@ body {
 }
 
 h1 {
-  font-family: "Montserrat";
+  font-family: "Montserrat-Black";
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p {
+  color: #8F8F8F;
 }
 
 /* Navigation Bar */
@@ -54,4 +63,18 @@ h1 {
 /* Features */
 #features {
   padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #EF8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #FF4C68;
 }
